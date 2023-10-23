@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"name": "HTML-CSS",
+			"path": "../.."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "02.BookStore_Resources copy"
+	}
+}
