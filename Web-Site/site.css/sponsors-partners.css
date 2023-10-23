@@ -1,0 +1,36 @@
+
+.sponsors-partners .container {
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+}
+
+.media-box {
+    width: 20%;
+    display: flex;
+    gap: 4em;
+    /* border: 1px solid red; */
+    margin: 0 auto;
+}
+.box-sponsor1,
+.box-sponsor2 {
+    padding: 1em;
+    border-radius: 50%;
+    background-color: #DDDDDD;
+}
+
+ .sponsors-partners .container article {
+    padding: 2em 4em;
+    text-align: center;
+}
+.sponsors-partners-desc {
+    padding:0 4em;
+    color: #947F73;
+    margin-bottom: 1.5em;
+}
+.sponsors-partners-title {
+    font-size: 2.5em;
+    font-family: 'PT Serif';
+    color: #B0825C;
+    margin-bottom: 0.5em;
+}

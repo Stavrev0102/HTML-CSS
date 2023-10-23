@@ -1,0 +1,29 @@
+
+.contacts .container {
+    border: 1px solid black;
+    background-color: #171720;
+    display: flex;
+    gap: 3em;
+    padding: 2em 5em;
+    justify-content: flex-start;
+}
+.container .box-contacts {
+    margin: 1em 0 3em 2em;
+    padding: 1em;
+}
+.container .box-contacts ul {
+    list-style: none;
+    line-height: 3em;
+    font-size: 0.9em;
+    text-transform: uppercase;
+}
+.container .box-contacts ul li {
+    color: #B3A68A;
+}
+.box-contacts-title {
+    font-size: 1.5em;
+    margin-bottom: 1em;
+    font-family: 'PT-Serif';
+    color: white;
+    font-weight: 600;
+}

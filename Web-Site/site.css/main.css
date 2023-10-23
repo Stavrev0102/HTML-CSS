@@ -1,0 +1,36 @@
+
+.main .container {
+    border-bottom: 2px solid  #CCCCCC;
+    padding: 3em 0;
+    margin-top: 2em;
+}
+.main .container .box-articles {
+    display: flex;
+    padding: 3em;
+    gap: 3em;
+    justify-content: center;
+    margin-top: 10em;
+}
+
+.main article {
+    margin:2em 0;
+    flex-basis: 40%;
+}
+.main article .article-title {
+    font-size: 2.5em;
+    font-family: 'PT Serif';
+    font-weight: 400;
+}
+ article .button a {
+    display: block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    width: 30%;
+    text-align: center;
+    border: 2px solid #B0825C;
+    color: #B0825C;
+    font-weight: 600;
+}
+article .button {
+    margin-top: 2em;
+}

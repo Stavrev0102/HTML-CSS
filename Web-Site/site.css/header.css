@@ -1,0 +1,23 @@
+
+.site-header .container {
+    display: flex;
+    padding: 1em 2em;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.site-header .container .site-navigation {
+    display: flex;
+}
+.site-navigation li {
+    display: block;
+    padding: 1em;
+}
+.site-navigation li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+.site-header .container .logo {
+    width: 6em;
+}

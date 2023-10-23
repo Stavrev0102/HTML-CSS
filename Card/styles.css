@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 13px/1.5 'Helvetica', sans-serif;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.site {
+    display: flex;
+    background-color: #1881B6;
+    max-width: 900px;
+    border: 5px solid black;
+    border-radius: 1em;
+    padding: 2em;
+    margin: 3em auto;
+}
+.contain {
+    display: flex;
+    flex-direction: column;
+}
+.contain .header {
+    font-weight: bold;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    margin: 1em 0;
+}
+.contain .title {
+    color: white;
+    font-size: 2.5em;
+}
+.contain .desc {
+    padding: 1em 3em 1em 0;
+    text-indent: 3em;
+    line-height: 2em;
+}
+.buttons {
+    display: flex;
+    justify-content: space-evenly;
+    padding:1em;
+}
+.buttons a {
+    border: 1px solid black;
+    padding:0.2em 1em;
+    text-decoration: none;
+    border-radius: 0.3em;
+    font-weight: bold;
+}
+
+.buttons .contact {
+    background-color: #B6416D;
+    color: white;
+}
+.buttons .learn-more {
+    color: black;
+}
